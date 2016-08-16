@@ -1,8 +1,5 @@
 #! /bin/bash 
 
-#Install docker
-curl -sSL https://get.docker.com/ | sh
-
 #Install jdk 7 (could put this into say installjdk7.sh using nano …)
 echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | debconf-set-selections
 apt-get install -y software-properties-common
